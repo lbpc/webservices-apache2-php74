@@ -1,7 +1,7 @@
 {
-  description = "Docker container with Apache and PHP builded by Nix";
+  description = "Docker container with Apache and PHP built with Nix";
 
-  inputs.majordomo.url = "git+https://gitlab.intr/_ci/nixpkgs";
+  inputs.majordomo.url = "github:lbpc/ci-nixpkgs/feat/infrastructural_unbind";
 
   outputs = { self, nixpkgs, majordomo }: {
 
